@@ -1,25 +1,27 @@
-import './App.css';
+import './style.css';
 import { Link } from 'react-router-dom';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          Hello world <span className="heart">♥️</span> mongui
+          SOY EL HOMEEEE <span className="heart">♥️</span> mongui
         </p>
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
-        <p>
-          
-        <Link to="/about">Acerca de</Link>
-          
-        </p>
+        
+          <div className="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <Link to="/shop">Acerca de</Link>
+
+        
       </header>
     </div>
   );
 }
 
-export default App;
+export default Home;
