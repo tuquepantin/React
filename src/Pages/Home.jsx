@@ -2,12 +2,14 @@ import './style.css';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Welcome from '../Components/Welcome';
+import Carrusel from '../Components/Carrusel';
 
 function Home() {
   return (
     <>
     <Navbar />
     <Welcome />
+    <Carrusel />
     <div className="App">
           <header className="App-header">
             <img src="Octocat.png" className="App-logo" alt="logo" />

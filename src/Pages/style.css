@@ -45,3 +45,16 @@
   background-color: #D9D9D9;
   height: 600px;
 }
+
+.margen {
+  padding-top: 200px;
+}
+
+.logowel {
+  font-size: 100px
+}
+
+.imgsize {
+  object-fit: cover;
+  height: 500px;
+}
