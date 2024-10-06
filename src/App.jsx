@@ -1,4 +1,6 @@
 import './App.css';
+import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -12,14 +14,9 @@ function App() {
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          
+        <Link to="/about">Acerca de</Link>
+          
         </p>
       </header>
     </div>
