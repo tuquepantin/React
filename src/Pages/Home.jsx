@@ -1,11 +1,13 @@
 import './style.css';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
+import Welcome from '../Components/Welcome';
 
 function Home() {
   return (
     <>
     <Navbar />
+    <Welcome />
     <div className="App">
           <header className="App-header">
             <img src="Octocat.png" className="App-logo" alt="logo" />

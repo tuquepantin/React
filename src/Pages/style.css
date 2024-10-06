@@ -32,3 +32,16 @@
 .colorNav {
   background-color: #FFFFFF !important;
 }
+
+.cuadro-30x30 {
+  width: 30px;
+  height: 30px;
+  background-color: #D9D9D9;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.welcomediv {
+  background-color: #D9D9D9;
+  height: 600px;
+}
