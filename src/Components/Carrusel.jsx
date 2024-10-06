@@ -2,7 +2,7 @@ function Carrusel() {
     return (
         <div>
             <h1 className="d-flex justify-content-center p-3">Have you been told?</h1>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide p-4">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -40,6 +40,8 @@ function Carrusel() {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <p className="d-flex justify-content-center App">There’s new merch available with worldwide <br /> shipping! From art prints to hoodies and cases, <br /> you can find exclusive products from trufaeu here. <br /> New content every month!</p>
+            <p className="d-flex justify-content-center text-danger">Shop Now</p>
         </div>
     )
 }
