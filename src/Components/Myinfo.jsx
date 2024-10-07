@@ -20,10 +20,10 @@ function Myinfo() {
                         </div>
                     </div>
                     <div class="row p-3">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style={{ paddingRight:'90px' }}>
                             <p className="App" style={{ backgroundColor: '#D9D9D9', width: '85px' }}>Portfolio</p>
                         </div>
-                        <div class="col-md-3" style={{ paddingLeft:'35px' }}>
+                        <div class="col-md-3">
                             <p className="App" style={{ backgroundColor: '#D9D9D9', width: '110px' }}>Social Media</p>
                         </div>
                     </div>
