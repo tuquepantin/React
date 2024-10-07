@@ -13,32 +13,15 @@ import Footer from '../Components/Footer';
 function Home() {
   return (
     <>
-    <Navbar />
-    <Welcome />
-    <Carrusel />
-    <Bannershop />
-    <Myinfo />
-    <Comments />
-    <Support />
-    <Contact />
-    <Footer />
-    <div className="App">
-          <header className="App-header">
-            <img src="Octocat.png" className="App-logo" alt="logo" />
-            <p>
-              HOLA SOY EL homeeeeee
-            </p>
-            <p className="small">
-              Edit <code>src/App.jsx</code> and save to reload.
-            </p>
-            <p>
-              
-            <Link to="/shop">SHOPPPPPPPP</Link>
-              
-            </p>
-          </header>
-        </div>
-    
+      <Navbar />
+      <Welcome />
+      <Carrusel />
+      <Bannershop />
+      <Myinfo />
+      <Comments />
+      <Support />
+      <Contact />
+      <Footer />
     </>
   );
 }
