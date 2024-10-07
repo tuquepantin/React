@@ -3,7 +3,7 @@ function Myinfo() {
         <>
             <div className="container p-5">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <div>
                             <h2>Meet the artist <br /> behind trufaeu</h2>
                             <div >
@@ -13,18 +13,18 @@ function Myinfo() {
 
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div className="grisimg position-relative">
                             <img className="position-absolute top-100 start-100 translate-middle imgverde" src="Logoverde.png" alt="" />
 
                         </div>
                     </div>
                     <div class="row p-3">
-                        <div class="col-md-2">
-                        <p className="App" style={{backgroundColor: '#D9D9D9', width: '95px'  }}>Portfolio</p>
+                        <div class="col-md-1">
+                            <p className="App" style={{ backgroundColor: '#D9D9D9', width: '85px' }}>Portfolio</p>
                         </div>
-                        <div class="col-md-3">
-                        <p className="App" style={{backgroundColor: '#D9D9D9', width: '130px'  }}>Social Media</p>
+                        <div class="col-md-3" style={{ paddingLeft:'35px' }}>
+                            <p className="App" style={{ backgroundColor: '#D9D9D9', width: '110px' }}>Social Media</p>
                         </div>
                     </div>
                 </div>
