@@ -5,6 +5,7 @@ import Welcome from '../Components/Welcome';
 import Carrusel from '../Components/Carrusel';
 import Bannershop from '../Components/Bannershop';
 import Myinfo from '../Components/Myinfo';
+import Comments from '../Components/Comments';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
     <Carrusel />
     <Bannershop />
     <Myinfo />
+    <Comments/>
     <div className="App">
           <header className="App-header">
             <img src="Octocat.png" className="App-logo" alt="logo" />

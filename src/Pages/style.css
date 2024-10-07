@@ -79,3 +79,18 @@
   width: 100px;
   height: 100px;
 }
+
+
+/* efectos para  comentarios */
+.container2 {
+  text-align: center;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.05s ease-in-out;
+}
+
+
+
+
