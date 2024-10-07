@@ -7,6 +7,8 @@ import Bannershop from '../Components/Bannershop';
 import Myinfo from '../Components/Myinfo';
 import Comments from '../Components/Comments';
 import Support from '../Components/Support';
+import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
     <Myinfo />
     <Comments />
     <Support />
+    <Contact />
+    <Footer />
     <div className="App">
           <header className="App-header">
             <img src="Octocat.png" className="App-logo" alt="logo" />
