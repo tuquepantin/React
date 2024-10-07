@@ -93,4 +93,19 @@
 
 
 
+.responsive-div {
+  width: 400px;
+  height: 400px;
 
+  @media (max-width: 768px) {
+    /* Para pantallas de hasta 768px (aproximadamente tablets) */
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (max-width: 480px) {
+    /* Para pantallas de hasta 480px (aproximadamente teléfonos móviles) */
+    width: 250px;
+    height: 250px;
+  }
+}

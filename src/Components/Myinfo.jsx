@@ -14,7 +14,7 @@ function Myinfo() {
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div className="grisimg position-relative">
+                        <div className="grisimg position-relative responsive-div">
                             <img className="position-absolute top-100 start-100 translate-middle imgverde" src="Logoverde.png" alt="" />
 
                         </div>
