@@ -56,5 +56,26 @@
 
 .imgsize {
   object-fit: cover;
-  height: 500px;
+  height: 400px;
+}
+
+.grisosc {
+  background-color: #B4B4B4;
+  height: 40px;
+}
+
+.griscla {
+  background-color: #D9D9D9;
+  height: 220px;
+}
+
+.grisimg {
+  background-color: #D9D9D9;
+  height: 400px;
+  width: 400px;
+}
+
+.imgverde {
+  width: 100px;
+  height: 100px;
 }

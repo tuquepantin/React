@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Welcome from '../Components/Welcome';
 import Carrusel from '../Components/Carrusel';
+import Bannershop from '../Components/Bannershop';
+import Myinfo from '../Components/Myinfo';
 
 function Home() {
   return (
@@ -10,6 +12,8 @@ function Home() {
     <Navbar />
     <Welcome />
     <Carrusel />
+    <Bannershop />
+    <Myinfo />
     <div className="App">
           <header className="App-header">
             <img src="Octocat.png" className="App-logo" alt="logo" />

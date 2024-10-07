@@ -10,21 +10,21 @@ function Carrusel() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="Octocat.png" class="d-block w-100 imgsize" alt="..." />
+                        <img src="https://htmlcolors.com/color-image/d9d9d9.png" class="d-block w-100 imgsize" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="Octocat.png" class="d-block w-100 imgsize" alt="..." />
+                        <img src="https://htmlcolors.com/color-image/d9d9d9.png" class="d-block w-100 imgsize" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="Octocat.png" class="d-block w-100 imgsize" alt="..." />
+                        <img src="https://htmlcolors.com/color-image/d9d9d9.png" class="d-block w-100 imgsize" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
