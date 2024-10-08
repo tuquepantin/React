@@ -1,0 +1,9 @@
+# Exported from Render on 2024-10-08T02:16:23Z
+services:
+- type: web
+  name: React
+  runtime: static
+  repo: https://github.com/tuquepantin/React
+  buildCommand: npm run build
+  staticPublishPath: dist
+version: "1"
